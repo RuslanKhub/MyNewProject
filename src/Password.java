@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Password {
+
     public static void password(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите пароль:");
@@ -10,7 +11,6 @@ public class Password {
         while (!password.equals(attempt)){
             System.out.println("Неверный пароль попробуйте еще раз:");
             attempt = sc.next();
-
         }
     }
 }

@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class PrimeNumbers {
+
     public static void getNumbers(){
         Scanner sc = new Scanner(System.in);
         int min = sc.nextInt();

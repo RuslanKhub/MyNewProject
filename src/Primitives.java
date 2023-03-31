@@ -1,4 +1,5 @@
 public class Primitives {
+
     public static void primitives(){
         char character = 'H';
         System.out.println(character);

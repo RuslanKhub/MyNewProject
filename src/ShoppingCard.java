@@ -1,19 +1,21 @@
+
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ShoppingCard {
+
     public static void card(){
         Scanner sc = new Scanner(System.in);
-        ArrayList <String> array = new ArrayList<>();
+        List<String> array = new ArrayList<>();
         String str;
         while (sc.hasNext()) {
             str = sc.nextLine();
-            if (isItEmpty(str) == true) {
+            if (isItEmpty(str)) {
                 array.add(str);
             }else{
                 break;
             }
-            str = "";
         }
         for (int i = 0; i < array.size(); i++) {
             System.out.println(array.get(i));
