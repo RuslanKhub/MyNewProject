@@ -7,18 +7,18 @@ public class ShoppingCard {
 
     public static void card(){
         Scanner sc = new Scanner(System.in);
-        List<String> array = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         String str;
         while (sc.hasNext()) {
             str = sc.nextLine();
             if (isItEmpty(str)) {
-                array.add(str);
+                list.add(str);
             }else{
                 break;
             }
         }
-        for (int i = 0; i < array.size(); i++) {
-            System.out.println(array.get(i));
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
         }
     }
 
