@@ -10,5 +10,8 @@ public class Main {
 
         PrimeNumbers primeNumbers = new PrimeNumbers();
         primeNumbers.getNumbers();
+
+        ShoppingCard shoppingCard = new ShoppingCard();
+        shoppingCard.card();
     }
 }
