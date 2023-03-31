@@ -16,5 +16,6 @@ public class Main {
 
         Password password = new Password();
         password.password();
+
     }
 }

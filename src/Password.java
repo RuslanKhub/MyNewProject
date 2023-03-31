@@ -10,6 +10,7 @@ public class Password {
         while (!password.equals(attempt)){
             System.out.println("Неверный пароль попробуйте еще раз:");
             attempt = sc.next();
+
         }
     }
 }
