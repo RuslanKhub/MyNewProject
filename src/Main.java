@@ -13,5 +13,8 @@ public class Main {
 
         ShoppingCard shoppingCard = new ShoppingCard();
         shoppingCard.card();
+
+        Password password = new Password();
+        password.password();
     }
 }

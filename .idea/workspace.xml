@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b9d203-0941-4ea5-af63-38450816ae32" name="Changes" comment="added new class getter Prime numbers">
-      <change afterPath="$PROJECT_DIR$/src/ShoppingCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3b9d203-0941-4ea5-af63-38450816ae32" name="Changes" comment="added new class ShoppingCard">
+      <change afterPath="$PROJECT_DIR$/src/Password.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680246670057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added new class ShoppingCard">
+      <created>1680250901379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680250901379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +136,7 @@
     <MESSAGE value="Added all primitives and max min values" />
     <MESSAGE value="Added all primitives and max min values on new class" />
     <MESSAGE value="added new class getter Prime numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new class getter Prime numbers" />
+    <MESSAGE value="added new class ShoppingCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new class ShoppingCard" />
   </component>
 </project>
