@@ -8,5 +8,7 @@ public class Main {
         MaxValue maxValue = new MaxValue();
         maxValue.getMax();
 
+        PrimeNumbers primeNumbers = new PrimeNumbers();
+        primeNumbers.getNumbers();
     }
 }
