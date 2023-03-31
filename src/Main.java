@@ -14,5 +14,6 @@ public class Main {
         System.out.println(str);
         char [] array = {'H','e','l','l','o'};
         System.out.println(array);
+
     }
 }
