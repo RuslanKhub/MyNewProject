@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class PrimeNumbers {
 
-    public static void getNumbers(){
+    public static void getPrimeNumbers(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Введите первое число");
         int min = sc.nextInt();
+        System.out.println("Введите второе число");
         int max = sc.nextInt();
         boolean result = true;
         for (int i = min; i < max; i++) {
@@ -15,7 +17,7 @@ public class PrimeNumbers {
                     break;
                 }
                 }
-            if(result == true){
+            if(result){
                 System.out.println(i);
             }
         }

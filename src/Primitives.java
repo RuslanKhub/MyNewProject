@@ -1,6 +1,6 @@
 public class Primitives {
 
-    public static void primitives(){
+    public static void getPrimitives(){
         char character = 'H';
         System.out.println(character);
         System.out.println(true + "," + false);

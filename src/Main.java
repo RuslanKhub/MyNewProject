@@ -3,20 +3,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Primitives primitives = new Primitives();
-        primitives.primitives();
+        Primitives.getPrimitives();
 
-        MaxValue maxValue = new MaxValue();
-        maxValue.getMax();
+        MaxValue.getMax();
 
-        PrimeNumbers primeNumbers = new PrimeNumbers();
-        primeNumbers.getNumbers();
+        PrimeNumbers.getPrimeNumbers();
 
-        ShoppingCard shoppingCard = new ShoppingCard();
-        shoppingCard.card();
+        ShoppingCard.card();
 
-        Password password = new Password();
-        password.password();
-
+        Password.password();
     }
 }

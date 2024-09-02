@@ -8,25 +8,14 @@ public class ShoppingCard {
     public static void card(){
         Scanner sc = new Scanner(System.in);
         List<String> list = new ArrayList<>();
-        String str;
-        while (sc.hasNext()) {
-            str = sc.nextLine();
-            if (isItEmpty(str)) {
-                list.add(str);
-            }else{
+        while (true) {
+            System.out.println("Введите пнродукт");
+            String product = sc.nextLine();
+            if(product.isEmpty()) {
                 break;
             }
+            list.add(product);
         }
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
-        }
-    }
-
-    public static boolean isItEmpty(String str){
-        if (str.isEmpty())
-            return false;
-
-        else
-            return true;
+        list.forEach(System.out::println);
     }
 }
